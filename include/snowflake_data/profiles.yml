@@ -1,0 +1,13 @@
+snowflake_data:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ba08798.me-central2.gcp
+      user: SHAHEDSAFWAT0
+      password: RH&d3L.cWR82SYd
+      role: ACCOUNTADMIN
+      database: finance_db
+      warehouse: finance_wh
+      schema: 'raw'
+      threads: 4

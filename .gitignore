@@ -1,0 +1,28 @@
+.env
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Astro Airflow
+.astro/
+logs/
+airflow-webserver.pid
+airflow.cfg
+airflow.db
+
+# Airflow
+airflow_settings.yaml
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# OS
+Thumbs.db
